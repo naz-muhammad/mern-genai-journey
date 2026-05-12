@@ -20,6 +20,12 @@ Documenting my journey from HTML to Full-Stack Development and Generative AI eng
 
 ### Day 3
 - Forms & Tables (built basic input structures)
+- **Assignment 01:** Built a Registration Form using pure HTML
+  - Used `<fieldset>` and `<legend>` for grouping
+  - Practiced input types: text, email, tel, date, password, radio, checkbox, select, textarea
+  - Learned proper label-input pairing using `for` and `id`
+  - Understood the role of the `name` attribute in form submission
+  - Added Submit and Reset buttons
 
 
 ## Goal
