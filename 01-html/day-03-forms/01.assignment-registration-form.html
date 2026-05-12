@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h1>Create Your Account</h1>
+  <p>Fill in the details below to register.</p>
+
+  <form action="">
+
+    <!-- Personal Info -->
+    <fieldset>
+      <legend>Personal info</legend>
+
+      <label for="firstname">First name</label><br>
+
+      <input type="text" name="firstname" id="firstname" placeholder="First name"><br><br>
+
+      <label for="lastname">Last name</label><br>
+
+      <input type="text" name="lastname" id="lastname" placeholder="Last name"><br><br>
+
+      <label for="dob">Date of birth</label><br>
+
+      <input type="date" name="dob" id="dob"><br><br>
+
+      <label>Gender</label><br>
+
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+
+      <input type="radio" name="gender" id="female" value="female">
+
+      <label for="female">Female</label>
+
+      <input type="radio" name="gender" id="other" value="other">
+      <label for="other">Other</label>
+
+    </fieldset>
+    <br>
+
+    <!-- Contact Details -->
+    <fieldset>
+
+      <legend>Contact details</legend>
+
+      <label for="email">Email address</label><br>
+      <input type="email" name="email" id="email" placeholder="naz@example.com"><br><br>
+
+      <label for="phone">Phone number</label><br>
+      <input type="tel" name="phone" id="phone" placeholder="+92 300 0000000"><br><br>
+
+      <label for="country">Country</label><br>
+
+      <select name="country" id="country">
+
+        <option value="">-- Select country --</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="uk">United Kingdom</option>
+        <option value="india">India</option>
+        <option value="afghanistan">Afghanistan</option>
+        <option value="japan">Japan</option>
+        
+      </select>
+
+    </fieldset>
+    <br>
+
+    <!-- Account Setup -->
+    <fieldset>
+      <legend>Account setup</legend>
+
+      <label for="username">Username</label><br>
+      <input type="text" name="username" id="username" placeholder="naz_muhammad"><br><br>
+
+      <label for="password">Password</label><br>
+      <input type="password" name="password" id="password"><br><br>
+
+      <label for="confirm">Confirm password</label><br>
+      <input type="password" name="confirm" id="confirm"><br>
+
+    </fieldset>
+    <br>
+
+    <!-- Extra -->
+    <fieldset>
+      <legend>Extra</legend>
+
+      <label for="bio">Short bio</label><br>
+      <textarea name="bio" id="bio" rows="4" cols="40" placeholder="Tell us a little about yourself..."></textarea><br><br>
+
+      <input type="checkbox" name="terms" id="terms">
+      <label for="terms">I agree to the Terms &amp; Conditions</label><br><br>
+
+      <input type="checkbox" name="newsletter" id="newsletter">
+      <label for="newsletter">Subscribe to newsletter</label>
+
+    </fieldset>
+    <br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+</html>
