@@ -8,39 +8,54 @@
   </head>
 
   <body>
-    <form>
-      <fieldset>
+    <form id="registration-form" class="form">
+
+      <fieldset id="personal-info" class="fieldset personal-fieldset">
         <legend>Personal Information</legend>
+
         <label for="name">Enter your name</label>
-        <input type="text" placeholder="Name" id="name" required /> <br />
-        <label for="">Enter your email</label>
-        <input type="email" placeholder="example@gmail.com" /> <br />
-        <label for="">Enter your password</label>
-        <input type="password" placeholder="******" /> <br />
-        <label for="">Select your gender</label>
-        <input type="radio" name="gender" />male
-        <input type="radio" name="gender" />female
-        <input type="radio" name="gender" />prefer not to say
-      </fieldset>
-      <fieldset>
-        <legend>Educational Information</legend>
-        <label for="">Enter Your Marks</label>
-        <input type="number" placeholder="1096" /> <br />
-        <label for="">Choose your degree</label>
-        <select name="" id="" class="degree-list">
-          <option value="">BS Software Engieering</option>
-          <option value="">Computer Science</option>
-        </select>
-        <br />
-        <label for="">choose your skills</label>
-        <input type="checkbox" />Html <input type="checkbox" />css
-        <input type="checkbox" />Js <input type="checkbox" />React
-        <input type="checkbox" />Node <input type="checkbox" />Express
+        <input type="text" id="name" class="input name-input" placeholder="Name" required /> <br />
+
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" class="input email-input" placeholder="example@gmail.com" /> <br />
+
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" class="input password-input" placeholder="******" /> <br />
+
+        <label>Select your gender</label>
+        <div class="radio-group" id="gender-group">
+          <input type="radio" id="male" name="gender" class="radio-input" /> <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" class="radio-input" /> <label for="female">Female</label>
+          <input type="radio" id="prefer-not" name="gender" class="radio-input" /> <label for="prefer-not">Prefer not to say</label>
+        </div>
       </fieldset>
 
-      <button class="form-btn" type="submit">Submit Now</button>
+      <fieldset id="education-info" class="fieldset education-fieldset">
+        <legend>Educational Information</legend>
+
+        <label for="marks">Enter Your Marks</label>
+        <input type="number" id="marks" class="input marks-input" placeholder="1096" /> <br />
+
+        <label for="degree">Choose your degree</label>
+        <select id="degree" class="degree-list select">
+          <option value="bse">BS Software Engineering</option>
+          <option value="cs">Computer Science</option>
+        </select>
+        <br />
+
+        <label>Choose your skills</label>
+        <div class="skills-group" id="skills-group">
+          <input type="checkbox" id="html" class="skill" /> <label for="html">HTML</label>
+          <input type="checkbox" id="css" class="skill" /> <label for="css">CSS</label>
+          <input type="checkbox" id="js" class="skill" /> <label for="js">JS</label>
+          <input type="checkbox" id="react" class="skill" /> <label for="react">React</label>
+          <input type="checkbox" id="node" class="skill" /> <label for="node">Node</label>
+          <input type="checkbox" id="express" class="skill" /> <label for="express">Express</label>
+        </div>
+      </fieldset>
+
+      <button id="submit-btn" class="form-btn" type="submit">Submit Now</button>
+
     </form>
   </body>
 </html>
-
-
