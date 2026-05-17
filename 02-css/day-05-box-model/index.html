@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/form.css" />
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Enter your name</label>
+        <input type="text" placeholder="Name" id="name" required /> <br />
+        <label for="">Enter your email</label>
+        <input type="email" placeholder="example@gmail.com" /> <br />
+        <label for="">Enter your password</label>
+        <input type="password" placeholder="******" /> <br />
+        <label for="">Select your gender</label>
+        <input type="radio" name="gender" />male
+        <input type="radio" name="gender" />female
+        <input type="radio" name="gender" />prefer not to say
+      </fieldset>
+      <fieldset>
+        <legend>Educational Information</legend>
+        <label for="">Enter Your Marks</label>
+        <input type="number" placeholder="1096" /> <br />
+        <label for="">Choose your degree</label>
+        <select name="" id="" class="degree-list">
+          <option value="">BS Software Engieering</option>
+          <option value="">Computer Science</option>
+        </select>
+        <br />
+        <label for="">choose your skills</label>
+        <input type="checkbox" />Html <input type="checkbox" />css
+        <input type="checkbox" />Js <input type="checkbox" />React
+        <input type="checkbox" />Node <input type="checkbox" />Express
+      </fieldset>
+
+      <button class="form-btn" type="submit">Submit Now</button>
+    </form>
+  </body>
+</html>
+
+
