@@ -33,4 +33,4 @@ To become a Full-Stack AI Engineer by building real-world applications, not just
 
 
 ## Connect
-LinkedIn: [www.linkedin.com/in/naz-muhammad-5949003ba](https://www.linkedin.com/in/naz-muhammad-5949003ba)
+LinkedIn: [www.linkedin.com/in/naz-muhammad-5949003ba](https://www.linkedin.com/in/naz-muhammad)
