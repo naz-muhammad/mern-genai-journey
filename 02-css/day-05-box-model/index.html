@@ -4,29 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/form.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
-  <body>
-    <form id="registration-form" class="form">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
 
+  <body>
+
+    
+
+    <form id="registration-form" class="form">
       <fieldset id="personal-info" class="fieldset personal-fieldset">
         <legend>Personal Information</legend>
 
         <label for="name">Enter your name</label>
-        <input type="text" id="name" class="input name-input" placeholder="Name" required /> <br />
+        <input
+          type="text"
+          id="name"
+          class="input name-input"
+          placeholder="Name"
+          required
+        />
+        <br />
 
         <label for="email">Enter your email</label>
-        <input type="email" id="email" class="input email-input" placeholder="example@gmail.com" /> <br />
+        <input
+          type="email"
+          id="email"
+          class="input email-input"
+          placeholder="example@gmail.com"
+        />
+        <br />
 
         <label for="password">Enter your password</label>
-        <input type="password" id="password" class="input password-input" placeholder="******" /> <br />
+        <input
+          type="password"
+          id="password"
+          class="input password-input"
+          placeholder="******"
+        />
+        <br />
 
         <label>Select your gender</label>
         <div class="radio-group" id="gender-group">
-          <input type="radio" id="male" name="gender" class="radio-input" /> <label for="male">Male</label>
-          <input type="radio" id="female" name="gender" class="radio-input" /> <label for="female">Female</label>
-          <input type="radio" id="prefer-not" name="gender" class="radio-input" /> <label for="prefer-not">Prefer not to say</label>
+          <input type="radio" id="male" name="gender" class="radio-input" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" class="radio-input" />
+          <label for="female">Female</label>
+          <input
+            type="radio"
+            id="prefer-not"
+            name="gender"
+            class="radio-input"
+          />
+          <label for="prefer-not">Prefer not to say</label>
         </div>
       </fieldset>
 
@@ -34,7 +70,13 @@
         <legend>Educational Information</legend>
 
         <label for="marks">Enter Your Marks</label>
-        <input type="number" id="marks" class="input marks-input" placeholder="1096" /> <br />
+        <input
+          type="number"
+          id="marks"
+          class="input marks-input"
+          placeholder="1096"
+        />
+        <br />
 
         <label for="degree">Choose your degree</label>
         <select id="degree" class="degree-list select">
@@ -45,17 +87,22 @@
 
         <label>Choose your skills</label>
         <div class="skills-group" id="skills-group">
-          <input type="checkbox" id="html" class="skill" /> <label for="html">HTML</label>
-          <input type="checkbox" id="css" class="skill" /> <label for="css">CSS</label>
-          <input type="checkbox" id="js" class="skill" /> <label for="js">JS</label>
-          <input type="checkbox" id="react" class="skill" /> <label for="react">React</label>
-          <input type="checkbox" id="node" class="skill" /> <label for="node">Node</label>
-          <input type="checkbox" id="express" class="skill" /> <label for="express">Express</label>
+          <input type="checkbox" id="html" class="skill" />
+          <label for="html">HTML</label>
+          <input type="checkbox" id="css" class="skill" />
+          <label for="css">CSS</label>
+          <input type="checkbox" id="js" class="skill" />
+          <label for="js">JS</label>
+          <input type="checkbox" id="react" class="skill" />
+          <label for="react">React</label>
+          <input type="checkbox" id="node" class="skill" />
+          <label for="node">Node</label>
+          <input type="checkbox" id="express" class="skill" />
+          <label for="express">Express</label>
         </div>
       </fieldset>
 
       <button id="submit-btn" class="form-btn" type="submit">Submit Now</button>
-
     </form>
   </body>
 </html>
