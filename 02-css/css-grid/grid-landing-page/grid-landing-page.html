@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+
+        .navbar{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            background-color: #fff;
+            place-items: center;
+            padding: 22px;
+            border-bottom: 1px solid #ddd;
+            
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .menu{
+            display: flex;
+            gap: 23px;
+            cursor: pointer;
+            list-style-type: none;
+        }
+        
+        .icon{
+            display: flex;
+            gap: 12px;
+            
+        }
+        .icon i{
+            font-size: 23px;
+            cursor: pointer;
+        }
+
+        /* hero section */
+        .hero{
+            height: 80vh;
+            background:#e9e9e9;
+            display: grid;
+            place-items: center;
+            text-align: center;
+        }
+        .hero h1{
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .hero p{
+            margin-bottom: 20px;
+        }
+        .hero button{
+            padding: 15px 25px;
+            color: white;
+            background-color: black;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">Naz M</div>
+            <ul class="menu">
+                <li>Mens</li>
+                <li>Womens</li>
+                <li>Kids</li>
+                <li>Fragrances</li>
+                <li>Sale</li>
+            </ul>
+            <div class="icon">
+                <i class="fa-brands fa-sistrix"></i>
+                <i class="fa-brands fa-css"></i>
+                <i class="fa-brands fa-apple"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero -->
+     <section class="hero">
+        <div>
+            <h1>Naz Muhammad</h1>
+            <p>Life is just like coding a program</p>
+            <button>Let's grow</button>
+        </div>
+     </section>
+    
+</body>
+</html>
