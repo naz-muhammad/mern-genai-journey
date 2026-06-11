@@ -1,0 +1,16 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+.item{
+    border: 2px solid black;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #999;
+    font-size: 30px;
+}
