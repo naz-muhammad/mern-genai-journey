@@ -1,0 +1,28 @@
+Your Challenge
+
+Build one responsive product card.
+
+Requirements
+
+The card should contain:
+
+Product image
+Product title
+Short description (2–3 lines)
+Price
+Discount badge (e.g. "20% OFF")
+Rating (⭐⭐⭐⭐☆ + 4.5)
+"Add to Cart" button
+
+
++----------------------------------+
+|          Product Image           |
+|                                  |
++----------------------------------+
+| 20% OFF               ⭐⭐⭐⭐☆ 4.5 |
+| Product Title                    |
+| Short description...             |
+| $49.99                           |
+|                                  |
+| [ Add to Cart ]                  |
++----------------------------------+
