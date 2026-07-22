@@ -1,0 +1,93 @@
+
+.card {
+
+    background-color: #fff;
+    width: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin: 30px;
+    border-radius: 10%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.card-top-left {
+    background-color: #fff;
+    width:60px ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.card-top-left img {
+    width: 45px;
+    height: 45px;
+    background-color: #dadadab8;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-top-right button {
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.41);
+    border: 1px solid #ddd;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+
+.card-center {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-center h3 {
+    font-size: 1.2rem;
+}
+.card-center h3 span {
+    font-size:.7rem ;
+    color: rgba(0, 0, 0, 0.41);
+
+}
+
+.card-center-capsule {
+    display: flex;
+    gap: 10px;
+}
+.card-center-capsule span {
+    background-color: #ddd;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: .8rem;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottom-info p{
+    font-size: .6rem;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.card-bottom button {
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
