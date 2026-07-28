@@ -1,34 +1,39 @@
-import { useState, useSyncExternalStore } from "react";
+import React from 'react'
+import Counter from './components/Counter'
 
-function App() {
+const App = () => {
 
-  // let counter = 0;
-  let [counter , setCounter] = useState(0)
+  let random = Math.floor(Math.random() * 11)
+
+  let users = [
+    {
+      user: 'naz',
+      id: 1,
+      color: 'white',
+      r: random
+    },
+    {
+      user: 'ayan',
+      id: 2,
+      color: 'black',
+      r: random+1
+    }
+  ]
+
+  
 
   return (
-    <div className="flex flex-col gap-4 bg-[#414141] p-8 rounded-2xl">
-      <h1 className="text-5xl">Count : {counter}</h1>
-      <button className="text-2xl bg-[#313131] py-4 rounded-full"
-        onClick={()=>{
-          counter++
-          console.log(counter);
-          setCounter(counter)
-        }}
-      >inc</button>
-      <button className="text-2xl bg-[#313131] py-4 rounded-full"
-      onClick={()=>{
-        
-        counter--
-        if ( counter >= 0 ) {
-          console.log(counter);
-          
-          setCounter(counter)
-        }
-        
-      }}
-      >dec</button>
+    <div className='flex flex-wrap gap-6'>
+      {
+        users.map( ( elem , index ) => {
+          console.log(elem.r);
+          // console.log(index);
+         return <Counter key={index} user={elem.user} id={elem.id} color={elem.color} random={elem.r} />
+
+        })
+      }
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
